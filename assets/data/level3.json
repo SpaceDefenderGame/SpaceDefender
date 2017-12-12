@@ -1,0 +1,133 @@
+{
+  "difficultyCoefficient": 1.3,
+  "enemies": 
+  [
+    {
+      "time": 1,
+      "health": 3,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 2,
+      "health": 4,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 3,
+      "health": 3,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+    {
+      "time": 4,
+      "health": 3,
+      "key": "grayEnemy",
+      "scale": 1
+    },
+    {
+      "time": 5,
+      "health": 4,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 6,
+      "health": 3,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 7,
+      "health": 3,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+    {
+      "time": 8,
+      "health": 4,
+      "key": "grayEnemy",
+      "scale": 1
+    },
+    {
+      "time": 9,
+      "health": 3,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 10,
+      "health": 3,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 11,
+      "health": 4,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+    {
+      "time": 12,
+      "health": 3,
+      "key": "grayEnemy",
+      "scale": 1
+    },
+    {
+      "time": 13,
+      "health": 4,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 14,
+      "health": 3,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 15,
+      "health": 4,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+    {
+      "time": 16,
+      "health": 3,
+      "key": "grayEnemy",
+      "scale": 1
+    },
+    {
+      "time": 17,
+      "health": 3,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 18,
+      "health": 4,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 19,
+      "health": 3,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+	{
+      "time": 20,
+      "health": 4,
+      "key": "grayEnemy",
+      "scale": 1
+    }
+  ],
+  
+  "boss": {
+      "health": 20,
+      "key": "boss4",
+      "scale": 1,
+	  "strength": 6
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "difficultyCoefficient": 1.6,
+  "enemies": 
+  [
+    {
+      "time": 1,
+      "health": 4,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 2,
+      "health": 5,
+      "key": "lightBlueEnemy",
+      "scale": 1,
+	  "strength": 2
+    },
+    {
+      "time": 3,
+      "health": 4,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+    {
+      "time": 4,
+      "health": 5,
+      "key": "grayEnemy",
+      "scale": 1
+    },
+    {
+      "time": 5,
+      "health": 4,
+      "key": "blueEnemy",
+      "scale": 1,
+	  "strength": 2
+    },
+    {
+      "time": 6,
+      "health": 5,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 7,
+      "health": 3,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+    {
+      "time": 8,
+      "health": 6,
+      "key": "grayEnemy",
+      "scale": 1
+    },
+    {
+      "time": 9,
+      "health": 5,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 10,
+      "health": 4,
+      "key": "lightBlueEnemy",
+      "scale": 1,
+	  "strength": 2
+    },
+    {
+      "time": 11,
+      "health": 5,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+    {
+      "time": 12,
+      "health": 4,
+      "key": "grayEnemy",
+      "scale": 1
+    },
+    {
+      "time": 13,
+      "health": 5,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 14,
+      "health": 4,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 15,
+      "health": 5,
+      "key": "redBlackEnemy",
+      "scale": 1,
+	  "strength": 2
+    },
+    {
+      "time": 16,
+      "health": 5,
+      "key": "grayEnemy",
+      "scale": 1
+    },
+    {
+      "time": 17,
+      "health": 6,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 18,
+      "health": 3,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 19,
+      "health": 4,
+      "key": "redBlackEnemy",
+      "scale": 1,
+	  "strength": 2
+    },
+    {
+      "time": 20,
+      "health": 5,
+      "key": "grayEnemy",
+      "scale": 1
+    },
+    {
+      "time": 21,
+      "health": 4,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 22,
+      "health": 5,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 23,
+      "health": 4,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+    {
+      "time": 24,
+      "health": 5,
+      "key": "grayEnemy",
+      "scale": 1,
+	  "strength": 2
+    },
+    {
+      "time": 25,
+      "health": 4,
+      "key": "blueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 26,
+      "health": 5,
+      "key": "lightBlueEnemy",
+      "scale": 1
+    },
+    {
+      "time": 27,
+      "health": 4,
+      "key": "redBlackEnemy",
+      "scale": 1
+    },
+    {
+      "time": 28,
+      "health": 6,
+      "key": "grayEnemy",
+      "scale": 1,
+	  "strength": 2
+    }
+    
+  ],
+  
+  "boss": {
+      "health": 28,
+      "key": "boss3",
+      "scale": 1,
+	  "strength": 8
+  }
+}
