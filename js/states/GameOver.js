@@ -7,7 +7,7 @@ SpaceDefender.GameOver = {
   }, 
   preload: function () {
 	  
-	  SpaceDefender.game.load.spritesheet("buttons", "/assets/images/icons/buttons.png", 265, 75);
+	  SpaceDefender.game.load.spritesheet("buttons", "assets/images/icons/buttons.png", 265, 75);
 
 
     }

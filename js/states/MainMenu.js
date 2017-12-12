@@ -7,7 +7,7 @@ SpaceDefender.MainMenu = {
   }, 
   preload: function () {
 	  
-	  SpaceDefender.game.load.spritesheet("buttons", "/assets/images/icons/buttons.png", 265, 75);
+	  SpaceDefender.game.load.spritesheet("buttons", "assets/images/icons/buttons.png", 265, 75);
 	  this.load.image('background', 'assets/images/backgrounds/background-main.jpg');
 
     }
