@@ -2,6 +2,7 @@ var SpaceDefender = SpaceDefender || {};
 SpaceDefender.score = 0;
 SpaceDefender.maxHealth = 100;
 SpaceDefender.bulletFrequency = 2.5;
+SpaceDefender.speed = 200;
 SpaceDefender.numLevels = 10;
 
 SpaceDefender.gameButtons = new GameButtons();
