@@ -2,9 +2,6 @@ var SpaceDefender = SpaceDefender || {};
 
 SpaceDefender.MainMenu = {
    init: function() {
-      this.game.cache = new Phaser.Cache(this.game);
-      this.game.load.reset();
-      this.game.load.removeAll();
       //use all the area, don't distort scale
       this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
    },
