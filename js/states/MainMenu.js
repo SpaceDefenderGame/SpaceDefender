@@ -31,7 +31,7 @@ SpaceDefender.MainMenu = {
       this.commentText.wordWrap = true;
       this.commentText.wordWrapWidth = this.game.width / 2;
       this.commentText.align = 'center';
-      this.commentText.fill = '#ffffff';
+      this.commentText.fill = '#ff0000';
       this.commentText.anchor.set(0.5, 0);
 
       this.btnStart = SpaceDefender.gameButtons.addButton('start', -1, -1, this.startGame, this);
