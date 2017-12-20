@@ -2,9 +2,6 @@ var SpaceDefender = SpaceDefender || {};
 
 SpaceDefender.MainMenu = {
    init: function() {
-      this.game.cache = new Phaser.Cache(this.game);
-      this.game.load.reset();
-      this.game.load.removeAll();
       //use all the area, don't distort scale
       this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
    },
@@ -31,7 +28,7 @@ SpaceDefender.MainMenu = {
       this.commentText.wordWrap = true;
       this.commentText.wordWrapWidth = this.game.width / 2;
       this.commentText.align = 'center';
-      this.commentText.fill = '#ffffff';
+      this.commentText.fill = '#ff0000';
       this.commentText.anchor.set(0.5, 0);
 
       this.btnStart = SpaceDefender.gameButtons.addButton('start', -1, -1, this.startGame, this);

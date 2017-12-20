@@ -4,7 +4,6 @@ SpaceDefender.GameState = {
 
    //initiate game settings
    init: function(currentLevel) {
-
       this.game.cache = new Phaser.Cache(this.game);
       this.game.load.reset();
       this.game.load.removeAll();
@@ -27,7 +26,12 @@ SpaceDefender.GameState = {
 
    //load the game assets before the game starts
    preload: function() {
-      this.load.audio('orchestra', ['assets/audio/battlemusic' + this.currentLevel + '.mp3',
+      this.loadingText = this.game.add.text(this.game.width / 2, this.game.height / 2, 'Loading...');
+      this.loadingText.fontSize = this.game.width / 14;
+      this.loadingText.fill = '#ffffff';
+      this.loadingText.anchor.set(0.5, 0.5);
+	  
+	  this.load.audio('orchestra', ['assets/audio/battlemusic' + this.currentLevel + '.mp3',
          'assets/audio/battlemusic' + this.currentLevel + '.ogg'
       ]);
 
@@ -93,6 +97,8 @@ SpaceDefender.GameState = {
       this.load.audio('enemy-explosion', ['assets/audio/enemyexplosion.mp3',
          'assets/audio/bad-cargo.ogg'
       ]);
+	  
+	  
 
    },
    //executed after everything is loaded
@@ -194,6 +200,8 @@ SpaceDefender.GameState = {
       this.enemyExplosionSound = this.add.audio('enemy-explosion');
       this.playerDamageSound.volume = 0.6;
       this.enemyExplosionSound.volume = 0.6;
+	  
+	  this.loadingText.kill();
 
    },
    update: function() {
